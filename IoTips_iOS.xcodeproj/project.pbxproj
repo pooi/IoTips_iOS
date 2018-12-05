@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1268F5B21A3E6F6001E4B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1268F5A21A3E6F6001E4B47 /* AppDelegate.swift */; };
+		D1268F5D21A3E6F6001E4B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1268F5C21A3E6F6001E4B47 /* ViewController.swift */; };
+		D1268F6021A3E6F6001E4B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1268F5E21A3E6F6001E4B47 /* Main.storyboard */; };
+		D1268F6221A3E6F7001E4B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1268F6121A3E6F7001E4B47 /* Assets.xcassets */; };
+		D1268F6521A3E6F7001E4B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1268F6321A3E6F7001E4B47 /* LaunchScreen.storyboard */; };
+		D1268F7021A3E6F7001E4B47 /* IoTips_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1268F6F21A3E6F7001E4B47 /* IoTips_iOSTests.swift */; };
+		D1268F7B21A3E6F7001E4B47 /* IoTips_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1268F7A21A3E6F7001E4B47 /* IoTips_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1268F6C21A3E6F7001E4B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1268F4F21A3E6F6001E4B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1268F5621A3E6F6001E4B47;
+			remoteInfo = IoTips_iOS;
+		};
+		D1268F7721A3E6F7001E4B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1268F4F21A3E6F6001E4B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1268F5621A3E6F6001E4B47;
+			remoteInfo = IoTips_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1268F5721A3E6F6001E4B47 /* IoTips_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTips_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1268F5A21A3E6F6001E4B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1268F5C21A3E6F6001E4B47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1268F5F21A3E6F6001E4B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1268F6121A3E6F7001E4B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1268F6421A3E6F7001E4B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1268F6621A3E6F7001E4B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1268F6B21A3E6F7001E4B47 /* IoTips_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTips_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1268F6F21A3E6F7001E4B47 /* IoTips_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTips_iOSTests.swift; sourceTree = "<group>"; };
+		D1268F7121A3E6F7001E4B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1268F7621A3E6F7001E4B47 /* IoTips_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTips_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1268F7A21A3E6F7001E4B47 /* IoTips_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTips_iOSUITests.swift; sourceTree = "<group>"; };
+		D1268F7C21A3E6F7001E4B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1268F5421A3E6F6001E4B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F6821A3E6F7001E4B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F7321A3E6F7001E4B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1268F4E21A3E6F6001E4B47 = {
+			isa = PBXGroup;
+			children = (
+				D1268F5921A3E6F6001E4B47 /* IoTips_iOS */,
+				D1268F6E21A3E6F7001E4B47 /* IoTips_iOSTests */,
+				D1268F7921A3E6F7001E4B47 /* IoTips_iOSUITests */,
+				D1268F5821A3E6F6001E4B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1268F5821A3E6F6001E4B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1268F5721A3E6F6001E4B47 /* IoTips_iOS.app */,
+				D1268F6B21A3E6F7001E4B47 /* IoTips_iOSTests.xctest */,
+				D1268F7621A3E6F7001E4B47 /* IoTips_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1268F5921A3E6F6001E4B47 /* IoTips_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1268F5A21A3E6F6001E4B47 /* AppDelegate.swift */,
+				D1268F5C21A3E6F6001E4B47 /* ViewController.swift */,
+				D1268F5E21A3E6F6001E4B47 /* Main.storyboard */,
+				D1268F6121A3E6F7001E4B47 /* Assets.xcassets */,
+				D1268F6321A3E6F7001E4B47 /* LaunchScreen.storyboard */,
+				D1268F6621A3E6F7001E4B47 /* Info.plist */,
+			);
+			path = IoTips_iOS;
+			sourceTree = "<group>";
+		};
+		D1268F6E21A3E6F7001E4B47 /* IoTips_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1268F6F21A3E6F7001E4B47 /* IoTips_iOSTests.swift */,
+				D1268F7121A3E6F7001E4B47 /* Info.plist */,
+			);
+			path = IoTips_iOSTests;
+			sourceTree = "<group>";
+		};
+		D1268F7921A3E6F7001E4B47 /* IoTips_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1268F7A21A3E6F7001E4B47 /* IoTips_iOSUITests.swift */,
+				D1268F7C21A3E6F7001E4B47 /* Info.plist */,
+			);
+			path = IoTips_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1268F5621A3E6F6001E4B47 /* IoTips_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1268F7F21A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOS" */;
+			buildPhases = (
+				D1268F5321A3E6F6001E4B47 /* Sources */,
+				D1268F5421A3E6F6001E4B47 /* Frameworks */,
+				D1268F5521A3E6F6001E4B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTips_iOS;
+			productName = IoTips_iOS;
+			productReference = D1268F5721A3E6F6001E4B47 /* IoTips_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1268F6A21A3E6F7001E4B47 /* IoTips_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1268F8221A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOSTests" */;
+			buildPhases = (
+				D1268F6721A3E6F7001E4B47 /* Sources */,
+				D1268F6821A3E6F7001E4B47 /* Frameworks */,
+				D1268F6921A3E6F7001E4B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1268F6D21A3E6F7001E4B47 /* PBXTargetDependency */,
+			);
+			name = IoTips_iOSTests;
+			productName = IoTips_iOSTests;
+			productReference = D1268F6B21A3E6F7001E4B47 /* IoTips_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1268F7521A3E6F7001E4B47 /* IoTips_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1268F8521A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOSUITests" */;
+			buildPhases = (
+				D1268F7221A3E6F7001E4B47 /* Sources */,
+				D1268F7321A3E6F7001E4B47 /* Frameworks */,
+				D1268F7421A3E6F7001E4B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1268F7821A3E6F7001E4B47 /* PBXTargetDependency */,
+			);
+			name = IoTips_iOSUITests;
+			productName = IoTips_iOSUITests;
+			productReference = D1268F7621A3E6F7001E4B47 /* IoTips_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1268F4F21A3E6F6001E4B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "유태우";
+				TargetAttributes = {
+					D1268F5621A3E6F6001E4B47 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D1268F6A21A3E6F7001E4B47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1268F5621A3E6F6001E4B47;
+					};
+					D1268F7521A3E6F7001E4B47 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D1268F5621A3E6F6001E4B47;
+					};
+				};
+			};
+			buildConfigurationList = D1268F5221A3E6F6001E4B47 /* Build configuration list for PBXProject "IoTips_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1268F4E21A3E6F6001E4B47;
+			productRefGroup = D1268F5821A3E6F6001E4B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1268F5621A3E6F6001E4B47 /* IoTips_iOS */,
+				D1268F6A21A3E6F7001E4B47 /* IoTips_iOSTests */,
+				D1268F7521A3E6F7001E4B47 /* IoTips_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1268F5521A3E6F6001E4B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1268F6521A3E6F7001E4B47 /* LaunchScreen.storyboard in Resources */,
+				D1268F6221A3E6F7001E4B47 /* Assets.xcassets in Resources */,
+				D1268F6021A3E6F6001E4B47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F6921A3E6F7001E4B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F7421A3E6F7001E4B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1268F5321A3E6F6001E4B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1268F5D21A3E6F6001E4B47 /* ViewController.swift in Sources */,
+				D1268F5B21A3E6F6001E4B47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F6721A3E6F7001E4B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1268F7021A3E6F7001E4B47 /* IoTips_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1268F7221A3E6F7001E4B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1268F7B21A3E6F7001E4B47 /* IoTips_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1268F6D21A3E6F7001E4B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1268F5621A3E6F6001E4B47 /* IoTips_iOS */;
+			targetProxy = D1268F6C21A3E6F7001E4B47 /* PBXContainerItemProxy */;
+		};
+		D1268F7821A3E6F7001E4B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1268F5621A3E6F6001E4B47 /* IoTips_iOS */;
+			targetProxy = D1268F7721A3E6F7001E4B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1268F5E21A3E6F6001E4B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1268F5F21A3E6F6001E4B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1268F6321A3E6F7001E4B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1268F6421A3E6F7001E4B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1268F7D21A3E6F7001E4B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1268F7E21A3E6F7001E4B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1268F8021A3E6F7001E4B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1268F8121A3E6F7001E4B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1268F8321A3E6F7001E4B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTips_iOS.app/IoTips_iOS";
+			};
+			name = Debug;
+		};
+		D1268F8421A3E6F7001E4B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTips_iOS.app/IoTips_iOS";
+			};
+			name = Release;
+		};
+		D1268F8621A3E6F7001E4B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IoTips_iOS;
+			};
+			name = Debug;
+		};
+		D1268F8721A3E6F7001E4B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56YADXWYDJ;
+				INFOPLIST_FILE = IoTips_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.iotips.IoTips-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IoTips_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1268F5221A3E6F6001E4B47 /* Build configuration list for PBXProject "IoTips_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1268F7D21A3E6F7001E4B47 /* Debug */,
+				D1268F7E21A3E6F7001E4B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1268F7F21A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1268F8021A3E6F7001E4B47 /* Debug */,
+				D1268F8121A3E6F7001E4B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1268F8221A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1268F8321A3E6F7001E4B47 /* Debug */,
+				D1268F8421A3E6F7001E4B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1268F8521A3E6F7001E4B47 /* Build configuration list for PBXNativeTarget "IoTips_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1268F8621A3E6F7001E4B47 /* Debug */,
+				D1268F8721A3E6F7001E4B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1268F4F21A3E6F6001E4B47 /* Project object */;
+}
